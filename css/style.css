@@ -1,0 +1,117 @@
+html, body{ 
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+.items{
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.items li{
+    margin: 5px;
+    align-self: center;
+}
+
+.items li a{
+    text-decoration: none;
+    color: black;
+}
+
+.items li a:hover{
+    text-decoration: underline;
+}
+
+.signup{
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.signup:hover{
+    background-color: dodgerblue;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.input input{
+    width: 570px;
+    height: 38px;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    box-shadow: 0.5px 1px 1px 1px grey;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.buttons button{
+    margin: 5px;
+    padding: 9px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: none;
+    background-color: #CFCFCF;
+    color: black;
+    font-weight: bold;
+    opacity: 0.7;
+    border-radius: 1.5px;
+}
+
+.buttons button:hover{
+    border: 0.07px solid gray;
+}
+
+.offered{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.offered span{
+    color: blueviolet;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: lightgray;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.country{
+    padding: 12px;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+}
+
+.extras{
+   padding: 9px; 
+   word-spacing: 25px;
+   margin-left: 6px;
+   opacity : 0.9;
+}
+
